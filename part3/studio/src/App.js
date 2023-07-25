@@ -6,12 +6,16 @@ import RecipeDisplay from './components/Recipe';
 function App() {
   return (
     <div className="App">
+    <h1>My Hobby: Yoga</h1>
+    <HobbyIntroduction />
       <RecipeDisplay />
       <div className="recipePhotoBlock">
         <BoardAssignment />
         <StatusChange />
       </div>
-    </div>
+      </div>
+
+   
   );
 }
 
